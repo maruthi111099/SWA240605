@@ -22,7 +22,7 @@ namespace SWA240605_WebAPI.Domain.Entities
         public PostUnit? PostsUnit { get; set; }
         public Visitor? Visitors { get; set; }
         //
-        //
+        // child entity
         //
         public ApplicantContactAddress? ApplicantContactAddresses { get; set; }
 
