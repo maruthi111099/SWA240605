@@ -10,8 +10,8 @@ namespace SWA240605_WebAPI.Domain.Entities
         //
         //Child entity
         //
-        public IEnumerable<ApplicantContactAddress>? ApplicantContactAddresses { get; set; }
-        public IEnumerable<ApplicantPermanentAddress>? ApplicantPermanentAddresses { get; set; }
+        public ICollection<ApplicantContactAddress>? ApplicantContactAddresses { get; set; }
+        public ICollection<ApplicantPermanentAddress>? ApplicantPermanentAddresses { get; set; }
         //
         //parent entity
         //

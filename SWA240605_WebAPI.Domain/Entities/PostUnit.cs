@@ -1,4 +1,6 @@
-﻿namespace SWA240605_WebAPI.Domain.Entities
+﻿using System.Collections.Generic;
+
+namespace SWA240605_WebAPI.Domain.Entities
 {
     public class PostUnit
     {
@@ -13,7 +15,7 @@
         //
         //Child entity
         //
-        public Applicant? Applicants { get; set; }
+        public ICollection<Applicant>? Applicants { get; set; }
         //
         //Parent entity
         //

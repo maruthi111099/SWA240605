@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SWA240605_WebAPI.Domain.Entities
 {
@@ -12,6 +13,6 @@ namespace SWA240605_WebAPI.Domain.Entities
         //
         //Child entity
         //
-        public Applicant? Applicants { get; set; }
+        public ICollection<Applicant>? Applicants { get; set; }
     }
 }

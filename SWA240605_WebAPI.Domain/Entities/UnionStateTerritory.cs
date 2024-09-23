@@ -1,4 +1,6 @@
-﻿namespace SWA240605_WebAPI.Domain.Entities
+﻿using System.Collections.Generic;
+
+namespace SWA240605_WebAPI.Domain.Entities
 {
     public class UnionStateTerritory
     {
@@ -8,8 +10,8 @@
         //
         //Child entity
         //
-        public ApplicantContactAddress? ApplicantContactAddresses { get; set; }
-        public ApplicantPermanentAddress? ApplicantPermanentAddresses { get; set; }
-        public District? Districts { get; set; }
+        public ICollection<ApplicantContactAddress>? ApplicantContactAddresses { get; set; }
+        public ICollection<ApplicantPermanentAddress>? ApplicantPermanentAddresses { get; set; }
+        public ICollection<District>? Districts { get; set; }
     }
 }
