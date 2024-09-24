@@ -26,8 +26,4 @@
     <ProjectReference Include="..\SWA240605_WebAPI.Shared\SWA240605_WebAPI.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\v1\" />
-  </ItemGroup>
-
 </Project>
